@@ -1,55 +1,119 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
+<head>
     <title>BNM : Contact</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link href="fonts/icomoon/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="fonts/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-  <div includes="header.html"></div>
-  <div includes="footer.html"></div>
+<div includes="header.html"></div>
+
+<div class="container main">
+    <form>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="inputEmail3">Email</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="inputEmail3" placeholder="Email" type="email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="inputEmail3">Teléphone portable</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="inputEmail3" placeholder="06.xx.xx.xx.xx" type="tel">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="inputPassword3">NOM et Prénom</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="inputPassword3" placeholder="votre NOM et Prénom" type="text">
+            </div>
+        </div>
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Mon status : je suis ...</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input checked class="form-check-input" id="btnradios1" name="status" type="radio"
+                               value="adherant">
+                        <label class="form-check-label" for="btnradios1">
+                            adherant
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" id="btnradios2" name="status" type="radio" value="externe">
+                        <label class="form-check-label" for="btnradios2">
+                            externe
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mon message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button class="btn btn-primary" id="submit" type="submit">Envoyer</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="container">
+    <p>Mairie de Meyzieu</p>
+
+    <p>Adresse : Place de l´Europe - CS 30401</br>
+        69883 Meyzieu Cedex</p>
+
+    <p>Tél. : 04 72 45 16 16</p>
+
+    <br>Horaires :</br>
+    Lun : 8h > 12h30-13h30 > 18h</br>
+    Mar - Ven : 8h >12h30-13h30 > 17h</p>
+</div>
+<div includes="footer.html"></div>
 
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.0.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="js/aos.js"></script>
 
-  <script src="js/main.js"></script>
-  <script src="js/script.js"></script>
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
 
-  <script>
+<script>
     includeHTML();
-  </script>
-  </body>
+</script>
+</body>
 
 </html>
 
